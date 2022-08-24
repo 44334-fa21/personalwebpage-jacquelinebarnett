@@ -1,1 +1,83 @@
-/*Personal Web Page Style Sheet */
+header, main, nav {
+  display: block;
+}
+
+body {
+  background-color: #FFCCFF;
+  color: #FF00CC;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  background-color: #99CCFF;
+  color: #99CCFF;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  line-height: 200%;
+  height: 60px;
+  color: #FFCCFF;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+nav {
+  font-weight: bold;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 0.3em;
+  font-size: 1.1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+nav a:link {
+  color: #FFFFFF;
+}
+
+nav a:visited {
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1px;
+  padding-top: 1em;
+  background-color: #FFFFFF;
+  margin-left: 20px;
+  display: block;
+}
+
+main {
+  padding-top: 0.1em;
+  padding-right: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.3em;
+}
+
+.column1 {
+  float: left;
+  width: 70%;
+}
+
+.column2 {
+  float: right;
+  width: 30%;
+}
